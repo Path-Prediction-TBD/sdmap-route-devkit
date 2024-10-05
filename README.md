@@ -19,4 +19,4 @@ Launch json for preprocessing:
 
 ```
 ## Diagram
-![Diagram](dataset_creation.png)
+![Diagram](route_retrieval.drawio.png)
