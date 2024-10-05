@@ -203,7 +203,6 @@ def worker(worker_data):
                 continue
         count += 1
         writer(f'{output + "/" + data_out["sequence_id"]}', data_out)
-        break  # remove later
 
     del wrapper
     return (

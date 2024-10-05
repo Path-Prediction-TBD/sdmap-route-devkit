@@ -51,7 +51,7 @@ def get_route_properties(tree: Tree, best_route_index, wrapper, vehicle_data):
     props = {}
     route_nodes, distance = tree.get_route_as_clean_nodes(
         best_route_index
-    )  # nodes without inserted nodes, so madmaps should have data on every link between them
+    )  # nodes without inserted nodes, so OSM should have data on every link between them
 
     # first convert route nodes to link objects
     route_links = []

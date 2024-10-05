@@ -4,18 +4,19 @@ Launch json for preprocessing:
 
 ```
 {
-    "name": "Load Map Kinematics",
+    "name": "Create Data Samples",
     "type": "debugpy",
     "request": "launch",
-    "program": "${workspaceFolder}/load_mapkinematics.py",
+    "program": "${workspaceFolder}/create_data_samples.py",
     "args": [
         "--input=/staging/dl_madmaps/data/dl2_hp_train_default",
-        "--output=test_osm/",
+        "--output=test/",
         "--workers=1",
         "--debug"
     ],
     "console": "integratedTerminal"
-}, 
+}
+
 ```
 ## Diagram
 ![Diagram](dataset_creation.png)
